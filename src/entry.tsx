@@ -2,10 +2,9 @@ import 'antd/dist/antd.css'
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-
-import Hello from './hello'
+import {MyForm} from './MyForm'
 
 ReactDOM.render(
-  <Hello/>,
+  <MyForm/>,
   document.body
 )
